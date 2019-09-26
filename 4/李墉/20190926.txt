@@ -1,0 +1,7 @@
+LSTM基本内容网址：http://www.atyun.com/16821.html
+GRU基本内容网址：https://blog.csdn.net/wangyangzhizhou/article/details/77332582
+GRU对LSTM做了两个大得改动：
+1：将输入门、遗忘门和输出门改变为两个门：更新门（Update Gate)zt和重置门(ResetGate)rt。
+2：将单元状态与输出合并为一个状态：h。
+
+Docker安装网址：http://mirrors.aliyun.com/docker-toolbox/windows/docker-toolbox/
