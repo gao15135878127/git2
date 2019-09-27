@@ -7,3 +7,9 @@
 6.word2vec skip-gram 80%
 
 问题：对负例采样存在偏差
+
+上午学习了linux centos7的安装  docker
+下午学习了文本表示
+词的表示：one_hot   word2vector(skip-gram ,CBOW(负采样，层次softmax))  NNLM
+               共现矩阵
+句子的表示：countvector  TF-IDF
