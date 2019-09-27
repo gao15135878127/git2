@@ -71,11 +71,11 @@ sego 是一个 Go 中文分词库，词典用双数组 trie（Double-Array Trie）实现， 分词器算
 
 	  Zt = σ（Xt * Wxz + Ht-1 * Whz + bz）  更新门
 
-候选隐含状态：Ht = tanh（Xt * Wxh + (Rt·Ht-1) * Whh + bh）
+候选隐含状态：Ht~ = tanh（Xt * Wxh + (Rt·Ht-1) * Whh + bh）
 
                                      按元素相乘 Rt=0,能够重置当前信息
 
-最后	Ht = Zt·Ht-1 + （1-Zt）·Ht
+最后	Ht = Zt·Ht-1 + （1-Zt）·Ht~
 
 	1                  0   drop
 
