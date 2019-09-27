@@ -1,0 +1,24 @@
+今天上午收拾好教室之后看了HMM的视频，感觉还是有难度的，下午老师讲了四节课，第3，4节课下载安装了docker,
+晚上练习了里面的命令。
+docker version  //查看版本
+docker info  // 查看docker信息
+docker --  //查看docker命令
+docker images  //列出所有的镜像
+docker search centos  //查询镜像
+docker pull hello-world  //默认从docker hub下载镜像
+docker run -it centos(容器名) /bin/bash
+docker ps  //查看启动的容器moren
+docker ps -a  //查看所有容器
+docker ps -f status=exited  //查看停止的容器
+docker run -it 容器名 /bin/bash  //交互式容器的创建
+docker exec -it 容器名 /bin/bash  //exec 是在容器中打开新的终端，并且可以启动新的进程
+exit	//关闭容器并退出
+docker start 容器名/容器id  //启动容器
+docker stop 容器名/容器id   //停止容器
+docker restart 容器名/容器id  // 重启容器
+docker attach 容器名/容器id    //进入容器
+
+
+
+
+
